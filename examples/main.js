@@ -1,3 +1,9 @@
 jQuery(window).ready(function(){
-    var clock =  new window.solarClock.Clock("clock");
+    Clockwork =  new window.solarClock.Clock("clock");
+    $(Clockwork.el).on('clock.ready', function(){
+        sunData = JSON.stringify(Clockwork.sunData);
+        sunData = sunData.replace(/[{,}]/gim,'<br />')
+        $(this).after('<p>'+sunData+'</p>');
+    })
+
 });
