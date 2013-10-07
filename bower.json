@@ -1,0 +1,30 @@
+{
+  "name": "solarClock",
+  "main": "solarClock.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Plou/solarClock",
+  "authors": [
+    "Plou <cl.plou@gmail.com>"
+  ],
+  "description": "A clock displaying 12 hours between sunrise to night given a location.",
+  "keywords": [
+    "webApp",
+    "coffescript",
+    "clock"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "license": "GPL v3",
+  "dependencies": {
+    "jquery": "~2.0.0",
+    "modernizr": "~2.6.2",
+    "suncalc": "git@github.com:mourner/suncalc.git",
+    "momentjs": "~2.1.0"
+  },
+  "devDependencies": {}
+}

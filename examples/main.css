@@ -1,0 +1,19 @@
+/* fonts */
+
+/* Dummy styles */
+body, ul, li { margin:0; padding: 0; }
+li { display: block; }
+body { background: #2B2A2A;
+    font-family: "Droid sans mono";font-weight: bold; font-size: 18px; color: #fafbfb;}
+    h1, h2, h3, h4, h5 { font-family: 'Helvetica'; font-weight: 200; }
+    a { text-decoration: none; color: #EE7532; cursor: pointer;}
+    a:focus, a:hover { color: #759e1a;}
+
+.header { text-align: center; }
+.column { display: inline-block; vertical-align: top; color: #2B2A2A;}
+
+.list-item { border-bottom: 1px solid; padding: 5px 10px; background: #fafbfb; }
+.list-item:last-child { border-bottom: none; }
+
+.single-item { margin-bottom: 10px; padding: 5px 10px; background: #fafbfb; }
+.container { text-align: center; }
