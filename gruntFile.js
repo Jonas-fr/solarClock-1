@@ -37,7 +37,7 @@ module.exports = function(grunt) {
     open: {
       all: {
         // Gets the port from the connect configuration
-        path: 'http://localhost:<%= connect.all.options.port%>'
+        path: 'http://localhost:<%= connect.all.options.port%>/examples'
       },
     },
 
